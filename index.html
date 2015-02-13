@@ -24,7 +24,10 @@
       <!-- bind the input to the searchInput using ng-model -->
       <input type="text" class="form-control" ng-model="main.searInput">
     </div>
-    <p>{{main.searInput}}</p>
+    <h3>A list of TV shows</h3>
+    <ul class="list-group">
+      <li class="list-group-item" ng-repeat>{{show.title}}</li>
+    </ul>
   </div>
 
 </body>
