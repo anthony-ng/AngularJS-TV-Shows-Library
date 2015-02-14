@@ -26,7 +26,12 @@
     </div>
     <h3>A list of TV shows</h3>
     <ul class="list-group">
-      <li class="list-group-item" ng-repeat="show in main.shows"><span class="glyphicon glyphicon-star" ng-if="show.favorite"></span>{{show.title}} <span class="badge">{{show.year}}</span></li>
+      <li class="list-group-item" ng-repeat="show in main.shows">
+        <!-- Add ng-if to show/hide whose show.favorite is true -->
+        <span class="glyphicon glyphicon-star" ng-if="show.favorite"></span>
+        {{show.title}}
+        <span class="badge">{{show.year}}</span>
+      </li>
     </ul>
   </div>
 
