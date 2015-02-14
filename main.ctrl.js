@@ -7,6 +7,8 @@ angular.module('app').controller("MainController", function() {
   var viewModel = this;
   viewModel.title = 'AngularJS Example';
   viewModel.searchInput = '';
+
+  // added object specifying the show details
   viewModel.shows = [
     {
       title: 'Game of Thrones',
@@ -34,6 +36,8 @@ angular.module('app').controller("MainController", function() {
       favorite: false
     }
     ];
+
+  // added object specifying the order types available
   viewModel.orders = [
     {
         id: 1,
