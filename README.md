@@ -4,7 +4,9 @@ This repo is a collection of many AngularJS tutorials. Completed tutorial will b
 
 ## [My TV Shows Library](http://tongng.com/portfolio/angular)
 
-## On progress: AngularJS PhoneCat app
+## On progress:
+
+AngularJS PhoneCat app
 
 ## Resource
 [Concepts](https://docs.angularjs.org/guide/concepts)
